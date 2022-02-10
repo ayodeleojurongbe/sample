@@ -1,0 +1,33 @@
+@media only screen and (max-width:480px){
+	.main-box-form{
+		height: 200%;
+		width: 100%;
+		margin: 0;
+		display: block;
+	}
+	.left-box, .right-box{
+		height: 100%;
+		width: 100%;
+		border-radius: 0px;
+	}
+}
+
+@media only screen and (min-width:481px) and (max-width:992px){
+	.main-box-form{
+		height: 100%;
+		width: 100%;
+		margin-top: 0;
+		display: block;
+	}
+	.left-box{
+		height: 15%;
+		width: 100%;
+	}
+	.right-box{
+		height: 85%;
+		width: 100%;
+	}
+	.left-box, .right-box{
+		border-radius: 0px;
+	}
+}
